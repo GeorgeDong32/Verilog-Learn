@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../../../Self Learn/Lesson/Experience1/detect_3zero.v" \
-"../../../../../../Self Learn/Lesson/Experience1/Test.v" \
+"../../../../src/detect_3zero.v" \
+"../../../../test/Test.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
