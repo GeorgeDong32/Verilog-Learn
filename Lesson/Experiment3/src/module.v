@@ -1,14 +1,14 @@
-//三元乘加器基本模块
 
-//无符号32位移位乘法器
+
+//无符�??32位移位乘法器
 module unsigned_multi32(
-    input [31,0] ina, inb,
-    output reg [63,0] out
+    input [31:0] ina, inb,
+    output reg [63:0] out
 );
 
     integer i;
-    reg [63,0] shifta;
-    reg [31,0] shiftb;
+    reg [63:0] shifta;
+    reg [31:0] shiftb;
     always @(ina or inb) begin
         shifta = ina;
         shiftb = inb;
@@ -28,14 +28,14 @@ endmodule
 
 //4位超前进位加法器
 module CLA_4(
-    input [3:0] a, b;       // 4位输入
-    input cin;             // 进位输入 
-    output [3:0] sum;      // 4位输出和
-    output cout;           // 进位输出
+    input [3:0] a, b,      // 4位输�??
+    input cin,             // 进位输入 
+    output [3:0] sum,      // 4位输出和
+    output cout           // 进位输出
 );
-    wire [3:0] p, g;      // 生成和进位信号
+    wire [3:0] p, g;      // 生成和进位信�??
     wire [2:0] c;         // 进位信号
-    // 计算生成和进位信号
+    // 计算生成和进位信�??
     assign p[0] = a[0] ^ b[0]; 
     assign g[0] = a[0] & b[0];
     assign p[1] = a[1] ^ b[1];
@@ -45,17 +45,17 @@ module CLA_4(
     assign p[3] = a[3] ^ b[3];
     assign g[3] = a[3] & b[3];
 
-    // 第一级进位  
+    // 第一级进�??  
     assign c[0] = g[0] | (p[0] & cin);
 
-    // 第二级进位
+    // 第二级进�??
     assign c[1] = g[1] | (p[1] & g[0]) | (p[1] & p[0] & cin);  
 
-    // 第三级进位 
+    // 第三级进�?? 
     assign c[2] = g[2] | (p[2] & g[1]) | (p[2] & p[1] & g[0]) | 
                 (p[2] & p[1] & p[0] & cin);
 
-    // 最后一级进位          
+    // �??后一级进�??          
     assign cout = g[3] | (p[3] & g[2]) | (p[3] & p[2] & g[1]) | 
                 (p[3] & p[2] & p[1] & g[0]) | (p[3] & p[2] & p[1] & p[0] & cin);
                 
@@ -69,12 +69,12 @@ endmodule
 
 //16位超前进位加法器
 module CLA_16(
-    input [15:0] a, b;    // 16位输入
-    input cin;            // 进位输入
-    output [15:0] sum;    // 16位输出和
-    output cout;          // 进位输出
+    input [15:0] a, b,    // 16位输�??
+    input cin,            // 进位输入
+    output [15:0] sum,    // 16位输出和
+    output cout          // 进位输出
 );
-    wire [3,0] c;         // 进位信号
+    wire [3:0] c;         // 进位信号
 
     CLA_4 add1(.a(a[3:0]), .b(b[3:0]), .cin(cin), .sum(sum[3:0]), .cout(c[0]));
     CLA_4 add2(.a(a[7:4]), .b(b[7:4]), .cin(c[0]), .sum(sum[7:4]), .cout(c[1]));
@@ -84,10 +84,10 @@ module CLA_16(
 endmodule
 
 module CLA_64(
-    input [63:0] a, b;    // 64位输入
-    input cin;            // 进位输入
-    output [63:0] sum;    // 64位输出和
-    output cout;          // 进位输出
+    input [63:0] a, b,    // 64位输�??
+    input cin,            // 进位输入
+    output [63:0] sum,    // 64位输出和
+    output cout          // 进位输出
 );
     wire [15:0] c;         // 进位信号
 

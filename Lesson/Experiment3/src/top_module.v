@@ -1,10 +1,10 @@
-//三元乘加器
+//三元乘加�?
 
 module multiply_accumulate(
-    input [31:0] a,b;
-    input [63:0] c;
-    output [63:0] out
-    output cout;
+    input [31:0] a,b,
+    input [63:0] c,
+    output [63:0] out,
+    output cout
 );
 
     wire [63:0] product_temp;
