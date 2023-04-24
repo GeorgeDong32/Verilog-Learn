@@ -1,23 +1,39 @@
-`timescale 1ns/1ps
-module  test();
-    //测试三元乘加器
+module multiply_accumulate_tb ();
 
-    reg [31:0] ina, inb;
-    reg [63:0] inc;
-    wire [63:0] out;
+    reg [31:0] a;
+    reg [31:0] b;
+    reg [63:0] c;
+    wire [63:0] result;
 
-    multiply_accumulate ma1(
-        .a(ina),
-        .b(inb),
-        .c(inc),
-        .out(out)
+    // 实例化multiply_accumulate模块
+    multiply_accumulate multiply_accumulate_inst (
+        .a(a),
+        .b(b),
+        .c(c),
+        .out(result)
     );
 
-    //开始测试
+    // 生成测试用例
     initial begin
-        #100 ina = 0; inb = 0; inc = 0;
-        #100 ina = 2; inb = 3; inc = 5;
-        #100 ina = 3; inb = 5; inc = 6;
+        $display("a, b, c, result");
+        test_case(32'h00000001, 32'h00000002, 64'h0000000000000003);
+        test_case(32'hFFFFFFFE, 32'h00000002, 64'h0000000000000000);
+        test_case(32'h00000000, 32'h00000000, 64'hFFFFFFFFFFFFFFFF);
+        $finish;
     end
+
+    // 测试用例函数
+    task test_case;
+        input [31:0] test_a;
+        input [31:0] test_b;
+        input [63:0] test_c;
+        begin
+            a = test_a;
+            b = test_b;
+            c = test_c;
+            #10;
+            $display("32'h%h, 32'h%h, 64'h%h, 64'h%h", a, b, c, result);
+        end
+    endtask
 
 endmodule
