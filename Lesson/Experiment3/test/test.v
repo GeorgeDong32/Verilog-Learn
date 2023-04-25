@@ -19,6 +19,10 @@ module multiply_accumulate_tb ();
         test_case(32'h00000001, 32'h00000002, 64'h0000000000000003);
         test_case(32'hFFFFFFFE, 32'h00000002, 64'h0000000000000000);
         test_case(32'h00000000, 32'h00000000, 64'hFFFFFFFFFFFFFFFF);
+        //my test case
+        test_case($itor(1), $itor(1), $itor(3));
+        test_case($itor(3), $itor(5), $itor(5));
+        test_case($itor(2), $itor(3), $itor(4));
         $finish;
     end
 
