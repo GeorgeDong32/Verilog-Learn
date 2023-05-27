@@ -5,6 +5,7 @@ module uart_transmitter(
 	input trans_ack,
 	output reg txd
 );
+
 	localparam IDLE=0, SEND_START=1, SEND_DATA=2, SEND_END=3;
 	reg [3:0] cur_st, nxt_st;
 	reg [4:0] count;
@@ -16,7 +17,6 @@ module uart_transmitter(
 		else
 			cur_st<=nxt_st;
 	end
-	
 	
 	always @ (*) begin
 		nxt_st<=cur_st;
@@ -53,4 +53,5 @@ module uart_transmitter(
 		else
 			txd<=1;
 	end
-	endmodule
+
+endmodule

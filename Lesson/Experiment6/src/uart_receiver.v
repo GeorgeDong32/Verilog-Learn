@@ -1,14 +1,16 @@
 module uart_receiver(
-input rxd,
-input clk,
-input rst,
-output receive_ack,
-output reg [7:0] data_i
+	input rxd,
+	input clk,
+	input rst,
+	output receive_ack,
+	output reg [7:0] data_i
 );
+
 	localparam IDLE=0, RECEIVE=1, RECEIVE_END=2;
 	reg [3:0] cur_st, nxt_st;
 	reg [4:0] count;
 	reg [7:0] data_o_tmp;
+
 	always@ (posedge clk) begin
 		if(rst==0)
 			cur_st<=IDLE;
@@ -17,7 +19,6 @@ output reg [7:0] data_i
 		end
 	end
 	
-
 	always@ (*) begin
 		nxt_st<=cur_st;
 		case (cur_st)
@@ -45,4 +46,5 @@ output reg [7:0] data_i
 	end
 	
 	assign receive_ack= (cur_st==RECEIVE_END)? 1:0;
+	
 endmodule
