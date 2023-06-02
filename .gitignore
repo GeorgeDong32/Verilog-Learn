@@ -54,6 +54,7 @@ unisims
 **/vivado.sim/
 **/ip/*
 **/ipstatic/*
+**/sim_scripts/*
 
 ###### for Xilinx Vivado|ISE
 .Xil/
