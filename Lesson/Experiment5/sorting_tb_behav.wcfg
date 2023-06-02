@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sorting_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sorting_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="331.601 ns"></ZoomEndTime>
+      <Cursor1Time time="315.200 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="286"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/sorting_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sorting_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sorting_tb/trigger" type="logic">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sorting_tb/dout" type="array">
+      <obj_property name="ElementShortName">dout[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group86" type="group">
+      <obj_property name="label">SORTING</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/raddr" type="array">
+         <obj_property name="ElementShortName">raddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/waddr" type="array">
+         <obj_property name="ElementShortName">waddr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/wen" type="logic">
+         <obj_property name="ElementShortName">wen</obj_property>
+         <obj_property name="ObjectShortName">wen</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/enb" type="logic">
+         <obj_property name="ElementShortName">enb</obj_property>
+         <obj_property name="ObjectShortName">enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/cstate" type="array">
+         <obj_property name="ElementShortName">cstate[1:0]</obj_property>
+         <obj_property name="ObjectShortName">cstate[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/nstate" type="array">
+         <obj_property name="ElementShortName">nstate[1:0]</obj_property>
+         <obj_property name="ObjectShortName">nstate[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/flag_read" type="logic">
+         <obj_property name="ElementShortName">flag_read</obj_property>
+         <obj_property name="ObjectShortName">flag_read</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/flag_write" type="logic">
+         <obj_property name="ElementShortName">flag_write</obj_property>
+         <obj_property name="ObjectShortName">flag_write</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/waddr_plus_1" type="array">
+         <obj_property name="ElementShortName">waddr_plus_1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">waddr_plus_1[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_sorting/raddr_plus_1" type="array">
+         <obj_property name="ElementShortName">raddr_plus_1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">raddr_plus_1[2:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group145" type="group">
+      <obj_property name="label">BRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/clka" type="logic">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/rsta" type="logic">
+         <obj_property name="ElementShortName">rsta</obj_property>
+         <obj_property name="ObjectShortName">rsta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/regcea" type="logic">
+         <obj_property name="ElementShortName">regcea</obj_property>
+         <obj_property name="ObjectShortName">regcea</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/addra" type="array">
+         <obj_property name="ElementShortName">addra[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/dina" type="array">
+         <obj_property name="ElementShortName">dina[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/douta" type="array">
+         <obj_property name="ElementShortName">douta[15:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/clkb" type="logic">
+         <obj_property name="ElementShortName">clkb</obj_property>
+         <obj_property name="ObjectShortName">clkb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/rstb" type="logic">
+         <obj_property name="ElementShortName">rstb</obj_property>
+         <obj_property name="ObjectShortName">rstb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/enb" type="logic">
+         <obj_property name="ElementShortName">enb</obj_property>
+         <obj_property name="ObjectShortName">enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/regceb" type="logic">
+         <obj_property name="ElementShortName">regceb</obj_property>
+         <obj_property name="ObjectShortName">regceb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/web" type="array">
+         <obj_property name="ElementShortName">web[0:0]</obj_property>
+         <obj_property name="ObjectShortName">web[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/addrb" type="array">
+         <obj_property name="ElementShortName">addrb[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addrb[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/dinb" type="array">
+         <obj_property name="ElementShortName">dinb[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dinb[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/doutb" type="array">
+         <obj_property name="ElementShortName">doutb[15:0]</obj_property>
+         <obj_property name="ObjectShortName">doutb[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/injectsbiterr" type="logic">
+         <obj_property name="ElementShortName">injectsbiterr</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/injectdbiterr" type="logic">
+         <obj_property name="ElementShortName">injectdbiterr</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/sbiterr" type="logic">
+         <obj_property name="ElementShortName">sbiterr</obj_property>
+         <obj_property name="ObjectShortName">sbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/dbiterr" type="logic">
+         <obj_property name="ElementShortName">dbiterr</obj_property>
+         <obj_property name="ObjectShortName">dbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/rdaddrecc" type="array">
+         <obj_property name="ElementShortName">rdaddrecc[2:0]</obj_property>
+         <obj_property name="ObjectShortName">rdaddrecc[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/eccpipece" type="logic">
+         <obj_property name="ElementShortName">eccpipece</obj_property>
+         <obj_property name="ObjectShortName">eccpipece</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/sleep" type="logic">
+         <obj_property name="ElementShortName">sleep</obj_property>
+         <obj_property name="ObjectShortName">sleep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/deepsleep" type="logic">
+         <obj_property name="ElementShortName">deepsleep</obj_property>
+         <obj_property name="ObjectShortName">deepsleep</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/shutdown" type="logic">
+         <obj_property name="ElementShortName">shutdown</obj_property>
+         <obj_property name="ObjectShortName">shutdown</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/rsta_busy" type="logic">
+         <obj_property name="ElementShortName">rsta_busy</obj_property>
+         <obj_property name="ObjectShortName">rsta_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/rstb_busy" type="logic">
+         <obj_property name="ElementShortName">rstb_busy</obj_property>
+         <obj_property name="ObjectShortName">rstb_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_aclk" type="logic">
+         <obj_property name="ElementShortName">s_aclk</obj_property>
+         <obj_property name="ObjectShortName">s_aclk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_aresetn" type="logic">
+         <obj_property name="ElementShortName">s_aresetn</obj_property>
+         <obj_property name="ObjectShortName">s_aresetn</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awid" type="array">
+         <obj_property name="ElementShortName">s_axi_awid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awaddr" type="array">
+         <obj_property name="ElementShortName">s_axi_awaddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awlen" type="array">
+         <obj_property name="ElementShortName">s_axi_awlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awsize" type="array">
+         <obj_property name="ElementShortName">s_axi_awsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awburst" type="array">
+         <obj_property name="ElementShortName">s_axi_awburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_awvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awready" type="logic">
+         <obj_property name="ElementShortName">s_axi_awready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_wdata" type="array">
+         <obj_property name="ElementShortName">s_axi_wdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wdata[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_wstrb" type="array">
+         <obj_property name="ElementShortName">s_axi_wstrb[0:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wstrb[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_wlast" type="logic">
+         <obj_property name="ElementShortName">s_axi_wlast</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_wvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_wvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_wready" type="logic">
+         <obj_property name="ElementShortName">s_axi_wready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_bid" type="array">
+         <obj_property name="ElementShortName">s_axi_bid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_bresp" type="array">
+         <obj_property name="ElementShortName">s_axi_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_bvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_bvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_bready" type="logic">
+         <obj_property name="ElementShortName">s_axi_bready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_bready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arid" type="array">
+         <obj_property name="ElementShortName">s_axi_arid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_araddr" type="array">
+         <obj_property name="ElementShortName">s_axi_araddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arlen" type="array">
+         <obj_property name="ElementShortName">s_axi_arlen[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arlen[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arsize" type="array">
+         <obj_property name="ElementShortName">s_axi_arsize[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arsize[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arburst" type="array">
+         <obj_property name="ElementShortName">s_axi_arburst[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arburst[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_arvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arready" type="logic">
+         <obj_property name="ElementShortName">s_axi_arready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rid" type="array">
+         <obj_property name="ElementShortName">s_axi_rid[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rid[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rdata" type="array">
+         <obj_property name="ElementShortName">s_axi_rdata[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rresp" type="array">
+         <obj_property name="ElementShortName">s_axi_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rresp[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rlast" type="logic">
+         <obj_property name="ElementShortName">s_axi_rlast</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rlast</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rvalid" type="logic">
+         <obj_property name="ElementShortName">s_axi_rvalid</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rready" type="logic">
+         <obj_property name="ElementShortName">s_axi_rready</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_injectsbiterr" type="logic">
+         <obj_property name="ElementShortName">s_axi_injectsbiterr</obj_property>
+         <obj_property name="ObjectShortName">s_axi_injectsbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_injectdbiterr" type="logic">
+         <obj_property name="ElementShortName">s_axi_injectdbiterr</obj_property>
+         <obj_property name="ObjectShortName">s_axi_injectdbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_sbiterr" type="logic">
+         <obj_property name="ElementShortName">s_axi_sbiterr</obj_property>
+         <obj_property name="ObjectShortName">s_axi_sbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_dbiterr" type="logic">
+         <obj_property name="ElementShortName">s_axi_dbiterr</obj_property>
+         <obj_property name="ObjectShortName">s_axi_dbiterr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rdaddrecc" type="array">
+         <obj_property name="ElementShortName">s_axi_rdaddrecc[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdaddrecc[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/SBITERR" type="logic">
+         <obj_property name="ElementShortName">SBITERR</obj_property>
+         <obj_property name="ObjectShortName">SBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/DBITERR" type="logic">
+         <obj_property name="ElementShortName">DBITERR</obj_property>
+         <obj_property name="ObjectShortName">DBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_WREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_BVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RLAST" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_SBITERR" type="logic">
+         <obj_property name="ElementShortName">S_AXI_SBITERR</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_SBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_DBITERR" type="logic">
+         <obj_property name="ElementShortName">S_AXI_DBITERR</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_DBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/WEA" type="array">
+         <obj_property name="ElementShortName">WEA[0:0]</obj_property>
+         <obj_property name="ObjectShortName">WEA[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ADDRA" type="array">
+         <obj_property name="ElementShortName">ADDRA[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRA[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/DINA" type="array">
+         <obj_property name="ElementShortName">DINA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DINA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/DOUTA" type="array">
+         <obj_property name="ElementShortName">DOUTA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DOUTA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/WEB" type="array">
+         <obj_property name="ElementShortName">WEB[0:0]</obj_property>
+         <obj_property name="ObjectShortName">WEB[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ADDRB" type="array">
+         <obj_property name="ElementShortName">ADDRB[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ADDRB[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/DINB" type="array">
+         <obj_property name="ElementShortName">DINB[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DINB[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/DOUTB" type="array">
+         <obj_property name="ElementShortName">DOUTB[15:0]</obj_property>
+         <obj_property name="ObjectShortName">DOUTB[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RDADDRECC" type="array">
+         <obj_property name="ElementShortName">RDADDRECC[2:0]</obj_property>
+         <obj_property name="ObjectShortName">RDADDRECC[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWID" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWLEN" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWLEN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWSIZE" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWBURST" type="array">
+         <obj_property name="ElementShortName">S_AXI_AWBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWBURST[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_WDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_WDATA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WDATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_WSTRB" type="array">
+         <obj_property name="ElementShortName">S_AXI_WSTRB[0:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WSTRB[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_BID" type="array">
+         <obj_property name="ElementShortName">S_AXI_BID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_BRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_BRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARID" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARADDR" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARADDR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARADDR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARLEN" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARLEN[7:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARLEN[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARSIZE" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARSIZE[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARSIZE[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARBURST" type="array">
+         <obj_property name="ElementShortName">S_AXI_ARBURST[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARBURST[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RID" type="array">
+         <obj_property name="ElementShortName">S_AXI_RID[3:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RID[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RDATA" type="array">
+         <obj_property name="ElementShortName">S_AXI_RDATA[15:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDATA[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RRESP" type="array">
+         <obj_property name="ElementShortName">S_AXI_RRESP[1:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RRESP[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RDADDRECC" type="array">
+         <obj_property name="ElementShortName">S_AXI_RDADDRECC[2:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RDADDRECC[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/WEB_parameterized" type="array">
+         <obj_property name="ElementShortName">WEB_parameterized[0:0]</obj_property>
+         <obj_property name="ObjectShortName">WEB_parameterized[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ECCPIPECE" type="logic">
+         <obj_property name="ElementShortName">ECCPIPECE</obj_property>
+         <obj_property name="ObjectShortName">ECCPIPECE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/SLEEP" type="logic">
+         <obj_property name="ElementShortName">SLEEP</obj_property>
+         <obj_property name="ObjectShortName">SLEEP</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTA_BUSY" type="logic">
+         <obj_property name="ElementShortName">RSTA_BUSY</obj_property>
+         <obj_property name="ObjectShortName">RSTA_BUSY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTB_BUSY" type="logic">
+         <obj_property name="ElementShortName">RSTB_BUSY</obj_property>
+         <obj_property name="ObjectShortName">RSTB_BUSY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/CLKA" type="logic">
+         <obj_property name="ElementShortName">CLKA</obj_property>
+         <obj_property name="ObjectShortName">CLKA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTA" type="logic">
+         <obj_property name="ElementShortName">RSTA</obj_property>
+         <obj_property name="ObjectShortName">RSTA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENA" type="logic">
+         <obj_property name="ElementShortName">ENA</obj_property>
+         <obj_property name="ObjectShortName">ENA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/REGCEA" type="logic">
+         <obj_property name="ElementShortName">REGCEA</obj_property>
+         <obj_property name="ObjectShortName">REGCEA</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/CLKB" type="logic">
+         <obj_property name="ElementShortName">CLKB</obj_property>
+         <obj_property name="ObjectShortName">CLKB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTB" type="logic">
+         <obj_property name="ElementShortName">RSTB</obj_property>
+         <obj_property name="ObjectShortName">RSTB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENB" type="logic">
+         <obj_property name="ElementShortName">ENB</obj_property>
+         <obj_property name="ObjectShortName">ENB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/REGCEB" type="logic">
+         <obj_property name="ElementShortName">REGCEB</obj_property>
+         <obj_property name="ObjectShortName">REGCEB</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/INJECTSBITERR" type="logic">
+         <obj_property name="ElementShortName">INJECTSBITERR</obj_property>
+         <obj_property name="ObjectShortName">INJECTSBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/INJECTDBITERR" type="logic">
+         <obj_property name="ElementShortName">INJECTDBITERR</obj_property>
+         <obj_property name="ObjectShortName">INJECTDBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_ACLK" type="logic">
+         <obj_property name="ElementShortName">S_ACLK</obj_property>
+         <obj_property name="ObjectShortName">S_ACLK</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_ARESETN" type="logic">
+         <obj_property name="ElementShortName">S_ARESETN</obj_property>
+         <obj_property name="ObjectShortName">S_ARESETN</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_AWVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_AWVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_AWVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_WLAST" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WLAST</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WLAST</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_WVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_WVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_WVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_BREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_BREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_BREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_ARVALID" type="logic">
+         <obj_property name="ElementShortName">S_AXI_ARVALID</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_ARVALID</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_RREADY" type="logic">
+         <obj_property name="ElementShortName">S_AXI_RREADY</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_RREADY</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_INJECTSBITERR" type="logic">
+         <obj_property name="ElementShortName">S_AXI_INJECTSBITERR</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_INJECTSBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/S_AXI_INJECTDBITERR" type="logic">
+         <obj_property name="ElementShortName">S_AXI_INJECTDBITERR</obj_property>
+         <obj_property name="ObjectShortName">S_AXI_INJECTDBITERR</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/injectsbiterr_in" type="logic">
+         <obj_property name="ElementShortName">injectsbiterr_in</obj_property>
+         <obj_property name="ObjectShortName">injectsbiterr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/injectdbiterr_in" type="logic">
+         <obj_property name="ElementShortName">injectdbiterr_in</obj_property>
+         <obj_property name="ObjectShortName">injectdbiterr_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/rsta_in" type="logic">
+         <obj_property name="ElementShortName">rsta_in</obj_property>
+         <obj_property name="ObjectShortName">rsta_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ena_in" type="logic">
+         <obj_property name="ElementShortName">ena_in</obj_property>
+         <obj_property name="ObjectShortName">ena_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/regcea_in" type="logic">
+         <obj_property name="ElementShortName">regcea_in</obj_property>
+         <obj_property name="ObjectShortName">regcea_in</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/wea_in" type="array">
+         <obj_property name="ElementShortName">wea_in[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea_in[0:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/addra_in" type="array">
+         <obj_property name="ElementShortName">addra_in[2:0]</obj_property>
+         <obj_property name="ObjectShortName">addra_in[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/dina_in" type="array">
+         <obj_property name="ElementShortName">dina_in[15:0]</obj_property>
+         <obj_property name="ObjectShortName">dina_in[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_awaddr_out_c" type="array">
+         <obj_property name="ElementShortName">s_axi_awaddr_out_c[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_awaddr_out_c[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_araddr_out_c" type="array">
+         <obj_property name="ElementShortName">s_axi_araddr_out_c[2:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_araddr_out_c[2:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_wr_en_c" type="logic">
+         <obj_property name="ElementShortName">s_axi_wr_en_c</obj_property>
+         <obj_property name="ObjectShortName">s_axi_wr_en_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rd_en_c" type="logic">
+         <obj_property name="ElementShortName">s_axi_rd_en_c</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rd_en_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_aresetn_a_c" type="logic">
+         <obj_property name="ElementShortName">s_aresetn_a_c</obj_property>
+         <obj_property name="ObjectShortName">s_aresetn_a_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_arlen_c" type="array">
+         <obj_property name="ElementShortName">s_axi_arlen_c[7:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_arlen_c[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rid_c" type="array">
+         <obj_property name="ElementShortName">s_axi_rid_c[3:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rid_c[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rdata_c" type="array">
+         <obj_property name="ElementShortName">s_axi_rdata_c[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rdata_c[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rresp_c" type="array">
+         <obj_property name="ElementShortName">s_axi_rresp_c[1:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rresp_c[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rlast_c" type="logic">
+         <obj_property name="ElementShortName">s_axi_rlast_c</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rlast_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rvalid_c" type="logic">
+         <obj_property name="ElementShortName">s_axi_rvalid_c</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rvalid_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_rready_c" type="logic">
+         <obj_property name="ElementShortName">s_axi_rready_c</obj_property>
+         <obj_property name="ObjectShortName">s_axi_rready_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/regceb_c" type="logic">
+         <obj_property name="ElementShortName">regceb_c</obj_property>
+         <obj_property name="ObjectShortName">regceb_c</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/s_axi_payload_c" type="array">
+         <obj_property name="ElementShortName">s_axi_payload_c[6:0]</obj_property>
+         <obj_property name="ObjectShortName">s_axi_payload_c[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/m_axi_payload_c" type="array">
+         <obj_property name="ElementShortName">m_axi_payload_c[6:0]</obj_property>
+         <obj_property name="ObjectShortName">m_axi_payload_c[6:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTA_SHFT_REG" type="array">
+         <obj_property name="ElementShortName">RSTA_SHFT_REG[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RSTA_SHFT_REG[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/POR_A" type="logic">
+         <obj_property name="ElementShortName">POR_A</obj_property>
+         <obj_property name="ObjectShortName">POR_A</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTB_SHFT_REG" type="array">
+         <obj_property name="ElementShortName">RSTB_SHFT_REG[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RSTB_SHFT_REG[4:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/POR_B" type="logic">
+         <obj_property name="ElementShortName">POR_B</obj_property>
+         <obj_property name="ObjectShortName">POR_B</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENA_dly" type="logic">
+         <obj_property name="ElementShortName">ENA_dly</obj_property>
+         <obj_property name="ObjectShortName">ENA_dly</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENA_dly_D" type="logic">
+         <obj_property name="ElementShortName">ENA_dly_D</obj_property>
+         <obj_property name="ObjectShortName">ENA_dly_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENB_dly" type="logic">
+         <obj_property name="ElementShortName">ENB_dly</obj_property>
+         <obj_property name="ObjectShortName">ENB_dly</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENB_dly_D" type="logic">
+         <obj_property name="ElementShortName">ENB_dly_D</obj_property>
+         <obj_property name="ObjectShortName">ENB_dly_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTA_I_SAFE" type="logic">
+         <obj_property name="ElementShortName">RSTA_I_SAFE</obj_property>
+         <obj_property name="ObjectShortName">RSTA_I_SAFE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/RSTB_I_SAFE" type="logic">
+         <obj_property name="ElementShortName">RSTB_I_SAFE</obj_property>
+         <obj_property name="ObjectShortName">RSTB_I_SAFE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENA_I_SAFE" type="logic">
+         <obj_property name="ElementShortName">ENA_I_SAFE</obj_property>
+         <obj_property name="ObjectShortName">ENA_I_SAFE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENB_I_SAFE" type="logic">
+         <obj_property name="ElementShortName">ENB_I_SAFE</obj_property>
+         <obj_property name="ObjectShortName">ENB_I_SAFE</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ram_rstram_a_busy" type="logic">
+         <obj_property name="ElementShortName">ram_rstram_a_busy</obj_property>
+         <obj_property name="ObjectShortName">ram_rstram_a_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ram_rstreg_a_busy" type="logic">
+         <obj_property name="ElementShortName">ram_rstreg_a_busy</obj_property>
+         <obj_property name="ObjectShortName">ram_rstreg_a_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ram_rstram_b_busy" type="logic">
+         <obj_property name="ElementShortName">ram_rstram_b_busy</obj_property>
+         <obj_property name="ObjectShortName">ram_rstram_b_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ram_rstreg_b_busy" type="logic">
+         <obj_property name="ElementShortName">ram_rstreg_b_busy</obj_property>
+         <obj_property name="ObjectShortName">ram_rstreg_b_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENA_dly_reg" type="logic">
+         <obj_property name="ElementShortName">ENA_dly_reg</obj_property>
+         <obj_property name="ObjectShortName">ENA_dly_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENB_dly_reg" type="logic">
+         <obj_property name="ElementShortName">ENB_dly_reg</obj_property>
+         <obj_property name="ObjectShortName">ENB_dly_reg</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENA_dly_reg_D" type="logic">
+         <obj_property name="ElementShortName">ENA_dly_reg_D</obj_property>
+         <obj_property name="ObjectShortName">ENA_dly_reg_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/ENB_dly_reg_D" type="logic">
+         <obj_property name="ElementShortName">ENB_dly_reg_D</obj_property>
+         <obj_property name="ObjectShortName">ENB_dly_reg_D</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_CORENAME" type="array">
+         <obj_property name="ElementShortName">C_CORENAME[143:0]</obj_property>
+         <obj_property name="ObjectShortName">C_CORENAME[143:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_FAMILY" type="array">
+         <obj_property name="ElementShortName">C_FAMILY[47:0]</obj_property>
+         <obj_property name="ObjectShortName">C_FAMILY[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_XDEVICEFAMILY" type="array">
+         <obj_property name="ElementShortName">C_XDEVICEFAMILY[47:0]</obj_property>
+         <obj_property name="ObjectShortName">C_XDEVICEFAMILY[47:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_ELABORATION_DIR" type="array">
+         <obj_property name="ElementShortName">C_ELABORATION_DIR[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C_ELABORATION_DIR[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_INTERFACE_TYPE" type="array">
+         <obj_property name="ElementShortName">C_INTERFACE_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_INTERFACE_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_BRAM_BLOCK" type="array">
+         <obj_property name="ElementShortName">C_USE_BRAM_BLOCK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_BRAM_BLOCK[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_CTRL_ECC_ALGO" type="array">
+         <obj_property name="ElementShortName">C_CTRL_ECC_ALGO[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_CTRL_ECC_ALGO[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_ENABLE_32BIT_ADDRESS" type="array">
+         <obj_property name="ElementShortName">C_ENABLE_32BIT_ADDRESS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_ENABLE_32BIT_ADDRESS[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_TYPE" type="array">
+         <obj_property name="ElementShortName">C_AXI_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_SLAVE_TYPE" type="array">
+         <obj_property name="ElementShortName">C_AXI_SLAVE_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_SLAVE_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_AXI_ID" type="array">
+         <obj_property name="ElementShortName">C_HAS_AXI_ID[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_AXI_ID[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_ID_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_AXI_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_MEM_TYPE" type="array">
+         <obj_property name="ElementShortName">C_MEM_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_MEM_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_BYTE_SIZE" type="array">
+         <obj_property name="ElementShortName">C_BYTE_SIZE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_BYTE_SIZE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_ALGORITHM" type="array">
+         <obj_property name="ElementShortName">C_ALGORITHM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_ALGORITHM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_PRIM_TYPE" type="array">
+         <obj_property name="ElementShortName">C_PRIM_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_PRIM_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_LOAD_INIT_FILE" type="array">
+         <obj_property name="ElementShortName">C_LOAD_INIT_FILE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_LOAD_INIT_FILE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_INIT_FILE_NAME" type="array">
+         <obj_property name="ElementShortName">C_INIT_FILE_NAME[135:0]</obj_property>
+         <obj_property name="ObjectShortName">C_INIT_FILE_NAME[135:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_INIT_FILE" type="array">
+         <obj_property name="ElementShortName">C_INIT_FILE[135:0]</obj_property>
+         <obj_property name="ObjectShortName">C_INIT_FILE[135:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_DEFAULT_DATA" type="array">
+         <obj_property name="ElementShortName">C_USE_DEFAULT_DATA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_DEFAULT_DATA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_DEFAULT_DATA" type="array">
+         <obj_property name="ElementShortName">C_DEFAULT_DATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">C_DEFAULT_DATA[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_RSTA" type="array">
+         <obj_property name="ElementShortName">C_HAS_RSTA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_RSTA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_RST_PRIORITY_A" type="array">
+         <obj_property name="ElementShortName">C_RST_PRIORITY_A[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C_RST_PRIORITY_A[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_RSTRAM_A" type="array">
+         <obj_property name="ElementShortName">C_RSTRAM_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_RSTRAM_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_INITA_VAL" type="array">
+         <obj_property name="ElementShortName">C_INITA_VAL[7:0]</obj_property>
+         <obj_property name="ObjectShortName">C_INITA_VAL[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_ENA" type="array">
+         <obj_property name="ElementShortName">C_HAS_ENA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_ENA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_REGCEA" type="array">
+         <obj_property name="ElementShortName">C_HAS_REGCEA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_REGCEA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_BYTE_WEA" type="array">
+         <obj_property name="ElementShortName">C_USE_BYTE_WEA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_BYTE_WEA[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WEA_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_WEA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WEA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WRITE_MODE_A" type="array">
+         <obj_property name="ElementShortName">C_WRITE_MODE_A[87:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WRITE_MODE_A[87:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WRITE_WIDTH_A" type="array">
+         <obj_property name="ElementShortName">C_WRITE_WIDTH_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WRITE_WIDTH_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_READ_WIDTH_A" type="array">
+         <obj_property name="ElementShortName">C_READ_WIDTH_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_READ_WIDTH_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WRITE_DEPTH_A" type="array">
+         <obj_property name="ElementShortName">C_WRITE_DEPTH_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WRITE_DEPTH_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_READ_DEPTH_A" type="array">
+         <obj_property name="ElementShortName">C_READ_DEPTH_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_READ_DEPTH_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_ADDRA_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_ADDRA_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_ADDRA_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_RSTB" type="array">
+         <obj_property name="ElementShortName">C_HAS_RSTB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_RSTB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_RST_PRIORITY_B" type="array">
+         <obj_property name="ElementShortName">C_RST_PRIORITY_B[15:0]</obj_property>
+         <obj_property name="ObjectShortName">C_RST_PRIORITY_B[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_RSTRAM_B" type="array">
+         <obj_property name="ElementShortName">C_RSTRAM_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_RSTRAM_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_INITB_VAL" type="array">
+         <obj_property name="ElementShortName">C_INITB_VAL[7:0]</obj_property>
+         <obj_property name="ObjectShortName">C_INITB_VAL[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_ENB" type="array">
+         <obj_property name="ElementShortName">C_HAS_ENB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_ENB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_REGCEB" type="array">
+         <obj_property name="ElementShortName">C_HAS_REGCEB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_REGCEB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_BYTE_WEB" type="array">
+         <obj_property name="ElementShortName">C_USE_BYTE_WEB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_BYTE_WEB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WEB_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_WEB_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WEB_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WRITE_MODE_B" type="array">
+         <obj_property name="ElementShortName">C_WRITE_MODE_B[87:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WRITE_MODE_B[87:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WRITE_WIDTH_B" type="array">
+         <obj_property name="ElementShortName">C_WRITE_WIDTH_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WRITE_WIDTH_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_READ_WIDTH_B" type="array">
+         <obj_property name="ElementShortName">C_READ_WIDTH_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_READ_WIDTH_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_WRITE_DEPTH_B" type="array">
+         <obj_property name="ElementShortName">C_WRITE_DEPTH_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_WRITE_DEPTH_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_READ_DEPTH_B" type="array">
+         <obj_property name="ElementShortName">C_READ_DEPTH_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_READ_DEPTH_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_ADDRB_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_ADDRB_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_ADDRB_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_MEM_OUTPUT_REGS_A" type="array">
+         <obj_property name="ElementShortName">C_HAS_MEM_OUTPUT_REGS_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_MEM_OUTPUT_REGS_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_MEM_OUTPUT_REGS_B" type="array">
+         <obj_property name="ElementShortName">C_HAS_MEM_OUTPUT_REGS_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_MEM_OUTPUT_REGS_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_MUX_OUTPUT_REGS_A" type="array">
+         <obj_property name="ElementShortName">C_HAS_MUX_OUTPUT_REGS_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_MUX_OUTPUT_REGS_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_MUX_OUTPUT_REGS_B" type="array">
+         <obj_property name="ElementShortName">C_HAS_MUX_OUTPUT_REGS_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_MUX_OUTPUT_REGS_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_SOFTECC_INPUT_REGS_A" type="array">
+         <obj_property name="ElementShortName">C_HAS_SOFTECC_INPUT_REGS_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_SOFTECC_INPUT_REGS_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_SOFTECC_OUTPUT_REGS_B" type="array">
+         <obj_property name="ElementShortName">C_HAS_SOFTECC_OUTPUT_REGS_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_SOFTECC_OUTPUT_REGS_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_MUX_PIPELINE_STAGES" type="array">
+         <obj_property name="ElementShortName">C_MUX_PIPELINE_STAGES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_MUX_PIPELINE_STAGES[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_SOFTECC" type="array">
+         <obj_property name="ElementShortName">C_USE_SOFTECC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_SOFTECC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_READ_LATENCY_A" type="array">
+         <obj_property name="ElementShortName">C_READ_LATENCY_A[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_READ_LATENCY_A[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_READ_LATENCY_B" type="array">
+         <obj_property name="ElementShortName">C_READ_LATENCY_B[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_READ_LATENCY_B[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_ECC" type="array">
+         <obj_property name="ElementShortName">C_USE_ECC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_ECC[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_ECC_PIPE" type="array">
+         <obj_property name="ElementShortName">C_EN_ECC_PIPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_ECC_PIPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_HAS_INJECTERR" type="array">
+         <obj_property name="ElementShortName">C_HAS_INJECTERR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_HAS_INJECTERR[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_SIM_COLLISION_CHECK" type="array">
+         <obj_property name="ElementShortName">C_SIM_COLLISION_CHECK[23:0]</obj_property>
+         <obj_property name="ObjectShortName">C_SIM_COLLISION_CHECK[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_COMMON_CLK" type="array">
+         <obj_property name="ElementShortName">C_COMMON_CLK[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_COMMON_CLK[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_DISABLE_WARN_BHV_COLL" type="array">
+         <obj_property name="ElementShortName">C_DISABLE_WARN_BHV_COLL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_DISABLE_WARN_BHV_COLL[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_SLEEP_PIN" type="array">
+         <obj_property name="ElementShortName">C_EN_SLEEP_PIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_SLEEP_PIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_USE_URAM" type="array">
+         <obj_property name="ElementShortName">C_USE_URAM[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_USE_URAM[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_RDADDRA_CHG" type="array">
+         <obj_property name="ElementShortName">C_EN_RDADDRA_CHG[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_RDADDRA_CHG[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_RDADDRB_CHG" type="array">
+         <obj_property name="ElementShortName">C_EN_RDADDRB_CHG[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_RDADDRB_CHG[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_DEEPSLEEP_PIN" type="array">
+         <obj_property name="ElementShortName">C_EN_DEEPSLEEP_PIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_DEEPSLEEP_PIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_SHUTDOWN_PIN" type="array">
+         <obj_property name="ElementShortName">C_EN_SHUTDOWN_PIN[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_SHUTDOWN_PIN[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EN_SAFETY_CKT" type="array">
+         <obj_property name="ElementShortName">C_EN_SAFETY_CKT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EN_SAFETY_CKT[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_COUNT_36K_BRAM" type="array">
+         <obj_property name="ElementShortName">C_COUNT_36K_BRAM[7:0]</obj_property>
+         <obj_property name="ObjectShortName">C_COUNT_36K_BRAM[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_COUNT_18K_BRAM" type="array">
+         <obj_property name="ElementShortName">C_COUNT_18K_BRAM[7:0]</obj_property>
+         <obj_property name="ObjectShortName">C_COUNT_18K_BRAM[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_EST_POWER_SUMMARY" type="array">
+         <obj_property name="ElementShortName">C_EST_POWER_SUMMARY[343:0]</obj_property>
+         <obj_property name="ObjectShortName">C_EST_POWER_SUMMARY[343:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_DISABLE_WARN_BHV_RANGE" type="array">
+         <obj_property name="ElementShortName">C_DISABLE_WARN_BHV_RANGE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_DISABLE_WARN_BHV_RANGE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/FLOP_DELAY" type="array">
+         <obj_property name="ElementShortName">FLOP_DELAY[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FLOP_DELAY[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_PAYLOAD" type="array">
+         <obj_property name="ElementShortName">C_AXI_PAYLOAD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_PAYLOAD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/AXI_FULL_MEMORY_SLAVE" type="array">
+         <obj_property name="ElementShortName">AXI_FULL_MEMORY_SLAVE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">AXI_FULL_MEMORY_SLAVE[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_ADDR_WIDTH_MSB" type="array">
+         <obj_property name="ElementShortName">C_AXI_ADDR_WIDTH_MSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_ADDR_WIDTH_MSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_ADDR_WIDTH" type="array">
+         <obj_property name="ElementShortName">C_AXI_ADDR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_ADDR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/LOWER_BOUND_VAL" type="array">
+         <obj_property name="ElementShortName">LOWER_BOUND_VAL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">LOWER_BOUND_VAL[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_ADDR_WIDTH_LSB" type="array">
+         <obj_property name="ElementShortName">C_AXI_ADDR_WIDTH_LSB[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_ADDR_WIDTH_LSB[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/sorting_tb/u_top/u_blk_mem_gen_0/inst/C_AXI_OS_WR" type="array">
+         <obj_property name="ElementShortName">C_AXI_OS_WR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">C_AXI_OS_WR[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
