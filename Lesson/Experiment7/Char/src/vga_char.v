@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 2023/06/02 17:52:02
-// Design Name: 
-// Module Name: vga_char
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 module vga_char(
     input sys_clk,
     input rst_n,
@@ -62,6 +44,7 @@ module vga_char(
     end
     
     reg[9:0] vcnt;
+
     always @ (posedge vga_clk) begin
         if(!rst_n)begin
             vcnt<=10'b0;
@@ -73,19 +56,19 @@ module vga_char(
              else begin
                 vcnt<=vcnt+1;
              end
-         end
-         else begin
+        end
+        else begin
             vcnt<=vcnt;
-         end
-     end        
+        end
+    end        
 
 
     wire hvalid;
     wire vvalid;
     wire vga_vaild;
     
-    assign hvalid=(hcnt>=hsync_n+hback_porch-1&&hcnt<hsync_n+hback_porch+hactive_vedio-1);
-    assign vvalid=(vcnt>=vsync_n+vback_porch-1&&vcnt<vsync_n+vback_porch+vactive_vedio-1);
+    assign hvalid=(hcnt >= hsync_n + hback_porch-1 && hcnt< hsync_n + hback_porch + hactive_vedio-1);
+    assign vvalid=(vcnt >= vsync_n + vback_porch-1 &&vcnt < vsync_n + vback_porch + vactive_vedio-1);
     assign vga_valid=hvalid&&vvalid;
     
     assign hsync=(hcnt>hsync_n-1);
@@ -186,10 +169,11 @@ module vga_char(
             endcase
         end
     end
+
     wire [11:0]disp_data;
     assign disp_data=vga_valid?data:12'b0;
-    
     assign vga_r=disp_data[11:8];
     assign vga_g=disp_data[7:4];
     assign vga_b=disp_data[3:0];
+
 endmodule     
